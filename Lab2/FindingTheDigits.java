@@ -10,7 +10,7 @@ public class FindingTheDigits {
 
         System.out.println("Number of Digits in the integer "+intValue+" are: "+hasDigitsIn(intValue,(byte) 0));
     }
-// Rashid Ali 298
+ 
     public static int hasDigitsIn(long value , byte digits){
         if (value == 0){
             return digits;

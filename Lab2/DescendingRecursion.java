@@ -1,5 +1,5 @@
 import java.util.Scanner;
-// Rashid Ali 298
+ 
 public class DescendingRecursion {
     public static void main(String[] args) {
         Scanner ubiquitous = new Scanner(System.in);

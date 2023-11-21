@@ -8,7 +8,7 @@ public class SeriesSumWithUserInput {
         ubiquitous.close();
         System.out.println("Sum from " + seriesHead + " to 0 is: " + seriesSum(seriesHead));
     }
-// Rashid Ali 298
+ 
     public static int seriesSum(int sentinel) {
         if (sentinel == 0) {
             return 0;

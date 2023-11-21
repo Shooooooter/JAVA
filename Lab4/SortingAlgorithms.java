@@ -6,7 +6,7 @@ import java.util.Random;
 public class SortingAlgorithms {
 
     public void selectionSort(int inputArray[], boolean isAscending, boolean logIterations) {
-        // Rashid Ali 298
+         
         System.out.println("Hello");
         int i, j, temp, sortControlIndex;
         int arrayLength = inputArray.length;
@@ -45,7 +45,7 @@ public class SortingAlgorithms {
         int temp, i, j, arrayLength, counter;
         arrayLength = inputArray.length;
         counter = 0;
-        // Rashid Ali 298
+         
         for (i = 0; i < arrayLength; i++) {
             if (isAscending) {
                 for (j = 0; j < (arrayLength - 1); j++) {
@@ -78,7 +78,7 @@ public class SortingAlgorithms {
     public void mergeSort(int inputArray[], boolean isAscending, boolean logIterations) {
         if (inputArray.length > 1) {
             int mid = inputArray.length / 2;
-            // Rashid Ali 298
+             
             int rightArray[] = Arrays.copyOfRange(inputArray, mid, inputArray.length);
             int leftArray[] = Arrays.copyOfRange(inputArray, 0, mid);
 
@@ -94,7 +94,7 @@ public class SortingAlgorithms {
         int leftIndex = 0;
         int rightIndex = 0;
         int mergedIndex = 0;
-        // Rashid Ali 298
+         
         Comparator<Integer> comparator = (isAscending) ? Integer::compare : (a, b) -> Integer.compare(b, a);
 
         while (leftIndex < leftArray.length && rightIndex < rightArray.length) {
@@ -144,7 +144,7 @@ public class SortingAlgorithms {
             System.out.print((i + 1) + ")--> : ");
             array[i] = ubiquitous.nextInt();
         }
-        // Rashid Ali 298
+         
         ubiquitous.close();
         return array;
     }
@@ -152,7 +152,7 @@ public class SortingAlgorithms {
     public int[] generateRandomNumbers(int size, int lowerBound, int upperBound) {
         Random random = new Random();
         int[] randomNumbers = new int[size];
-        // Rashid Ali 298
+         
         for (int i = 0; i < size; i++) {
             int randomNumber = random.nextInt(upperBound - lowerBound + 1) + lowerBound;
             randomNumbers[i] = randomNumber;

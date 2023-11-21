@@ -1,6 +1,6 @@
 import java.util.Arrays;
 import java.util.Scanner;
-// Rashid Ali 298
+ 
 public class ArrayMerge {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

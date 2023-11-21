@@ -1,7 +1,7 @@
 import java.util.Vector;
 import java.util.Collections;
 import java.util.Scanner;
-// Rashid Ali 298
+ 
 public class IntegerVectorOperations {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

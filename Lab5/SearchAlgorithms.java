@@ -89,7 +89,7 @@ public class SearchAlgorithms{
             System.out.print((i + 1) + ")--> : ");
             array[i] = ubiquitous.nextInt();
         }
-        // Rashid Ali 298
+         
         ubiquitous.close();
         return array;
     }
@@ -97,7 +97,7 @@ public class SearchAlgorithms{
     public int[] generateRandomNumbers(int size, int lowerBound, int upperBound) {
         Random random = new Random();
         int[] randomNumbers = new int[size];
-        // Rashid Ali 298
+         
         for (int i = 0; i < size; i++) {
             int randomNumber = random.nextInt(upperBound - lowerBound + 1) + lowerBound;
             randomNumbers[i] = randomNumber;

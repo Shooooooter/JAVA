@@ -1,28 +1,28 @@
 import java.util.ArrayList;
 import java.util.Collections;
-// Rashid Ali 298
+
 public class EmployeeSorting {
     public static void main(String[] args) {
         ArrayList<Employee> employees = new ArrayList<>();
 
-        employees.add(new Employee(1, "John",
+        employees.add(new Employee(1, "Hamza",
                 "Male",
                 2010,
                 60000,
                 "HR"));
         employees.add(new Employee(2,
-                "Alice", "Female",
+                "Taqi", "Male",
                 2015,
                 55000,
                 "Engineering"));
         employees.add(new Employee(3,
-                "Bob",
+                "Umer",
                 "Male", 2012,
                 62000,
                 "Marketing"));
         employees.add(new Employee(4,
-                "Eve",
-                "Female",
+                "Shafin",
+                "male",
                 2018,
                 58000,
                 "Finance"));

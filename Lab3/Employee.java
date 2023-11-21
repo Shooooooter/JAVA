@@ -5,7 +5,7 @@ class Employee implements Comparable<Employee> {
     private int Year_of_Joining;
     private double Salary;
     private String Department;
-    // Rashid Ali 298
+     
 
     public Employee(int Emp_id, String Emp_Name, String Emp_gender, int Year_of_Joining, double Salary,
             String Department) {

@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-// Rashid Ali 298
+ 
 public class StringArrayListMenu {
     public static void main(String[] args) {
         ArrayList<String> stringList = new ArrayList<String>();
